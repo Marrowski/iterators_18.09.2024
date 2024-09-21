@@ -1,5 +1,5 @@
 class MyIterator:
-    def __init__(self, num_first, num_end):
+    def __init__(self, num_first: int, num_end: int):
         self.num_first = num_first
         self.num_end = num_end
 
